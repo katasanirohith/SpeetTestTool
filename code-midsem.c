@@ -509,5 +509,5 @@ int main(int argc, char *argv[])
     dsize = get_download_filename(speed, num_thread);
     fprintf(stderr, "Loading");
     download_speed = test_download(server_url, num_thread, dsize, 1);
-    printf("Download speed: %0.2fMbps\n", ((download_speed*8)/(1024*1024)));
+    printf("Download speed is %0.2fMbps\n", ((download_speed*8)/(1024*1024)));
 }
